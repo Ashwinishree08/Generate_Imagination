@@ -41,11 +41,9 @@ def show_signup_page():
             st.session_state.page = "login"
             st.rerun()
 
-
     if st.button("Go to Login"):
         st.session_state.page = "login"
         st.rerun()
-
 
 def logout():
     st.session_state.user = None
