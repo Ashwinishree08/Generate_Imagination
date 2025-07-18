@@ -1,0 +1,67 @@
+/* Background: subtle tech pattern (no circles/street) */
+body, .stApp {
+  background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f4f4f4;
+}
+
+/* App Title */
+.main-title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  background: linear-gradient(to right, #2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+
+/* Text Input */
+.stTextInput > div > div > input {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Buttons */
+.stButton > button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.stButton > button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
+
+/* Image Display */
+.stImage img {
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  margin-top: 15px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+
+/* Subheaders */
+h2, .stSubheader {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+}
