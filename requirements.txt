@@ -1,0 +1,11 @@
+streamlit
+diffusers
+torch
+transformers
+pymongo
+python-dotenv
+bcrypt
+Pillow
+huggingface_hub
+
+
